@@ -1,6 +1,7 @@
 import "./App.css";
 import ButtonComponent from "./Components/ButtonComponent.jsx";
 import ImageComponent from "./Components/ImageComponent";
+import InputComponent from "./Components/InputComponent";
 import ParagraphComponent from "./Components/ParagraphComponent";
 import TitleComponent from "./Components/TitleComponent";
 
@@ -14,6 +15,7 @@ function App() {
         <ParagraphComponent text="Inseriamone un terzo" size="1.3" />
         <ButtonComponent text="Il mio primo bottone" />
         <ButtonComponent text="Il mio secondo bottone" />
+        <InputComponent placeholder="Scrivi qualcosa..." />
         <ImageComponent
           img="https://www.bradipiinantartide.com/wp-content/uploads/2021/04/boh-1.jpg"
           altText="non so cosa scrivere"
