@@ -15,7 +15,11 @@ function App() {
         <ParagraphComponent text="Inseriamone un terzo" size="1.3" />
         <ButtonComponent text="Il mio primo bottone" />
         <ButtonComponent text="Il mio secondo bottone" />
-        <InputComponent placeholder="Scrivi qualcosa..." />
+        <InputComponent
+          placeholder="Scrivi qualcosa..."
+          radius="25px"
+          size="0.8"
+        />
         <ImageComponent
           img="https://www.bradipiinantartide.com/wp-content/uploads/2021/04/boh-1.jpg"
           altText="non so cosa scrivere"
