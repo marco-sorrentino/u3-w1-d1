@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <TitleComponent text="Prima pagina React" />
+        <TitleComponent text="Prima pagina React" color="red" />
         <ButtonComponent text="Il mio primo bottone" />
         <ButtonComponent text="Il mio secondo bottone" />
         <ImageComponent

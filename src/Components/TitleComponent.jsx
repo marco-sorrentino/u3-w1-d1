@@ -4,7 +4,7 @@ class TitleComponent extends Component {
   render() {
     return (
       <div>
-        <h1>{this.props.text}</h1>
+        <h1 style={{ color: this.props.color }}>{this.props.text}</h1>
       </div>
     );
   }
